@@ -2,12 +2,12 @@
 
 ### required packages for Debian based systems
 ```
-sudo apt install ydotool libx11-dev libxtst-dev libgtk-3-dev libappindicator3-dev
+sudo apt install ydotool
 ```
 
 ### required packages for Arch based systems
 ```
-sudo pacman -S ydotool libx11 libxtst gtk3 libappindicator-gtk3
+sudo pacman -S ydotool
 ```
 
 ### compile
