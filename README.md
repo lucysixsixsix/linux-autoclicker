@@ -19,6 +19,6 @@ replace on line 119 ``/dev/input/event4`` whichever number your mouse is
 ### compile
 
 ```
-gcc -O2 -o autoclicker autoclicker.c -pthread
+$ gcc -O2 -o autoclicker autoclicker.c -pthread
 ```
 #
