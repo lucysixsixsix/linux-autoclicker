@@ -97,7 +97,7 @@ int main(void) {
                     printf("Grave:      Toggle Auto Clicker\n\n");
                     printf("CTRL-C:     Exit Program\n");
                     printf("───────────────────────────────────────────────\n");
-                    printf("Status: %s\n",(toggled?"ON ":"OFF"));
+                    printf("Status: %s\n",(toggled?"ON":"OFF"));
                     printf("═══════════════════════════════════════════════\n");
                     printf("\033[H\033[J");
                     toggled=!toggled;
