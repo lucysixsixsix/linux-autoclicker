@@ -2,12 +2,12 @@
 
 ### required packages for Debian based systems
 ```
-sudo apt install evtest
+$ sudo apt install evtest
 ```
 
 ### required packages for Arch based systems
 ```
-sudo pacman -S evtest
+$ sudo pacman -S evtest
 ```
 
 ### find your mouse input
