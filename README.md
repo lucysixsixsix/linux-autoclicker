@@ -13,8 +13,6 @@ sudo pacman -S ydotool libx11 libxtst gtk3 libappindicator-gtk3
 ### compile
 
 ```
-gcc autoclicker.c -o autoclicker \
-  `pkg-config --cflags --libs gtk+-3.0 appindicator3-0.1 x11 xtst` \
-  -lpthread
+gcc -O2 -o autoclicker autoclicker.c -pthread
 ```
 #
