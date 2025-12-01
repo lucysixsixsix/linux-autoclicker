@@ -1,4 +1,3 @@
-#define _GNU_SOURCE
 #include <linux/uinput.h>
 #include <linux/input.h>
 #include <sys/time.h>
