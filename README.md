@@ -14,7 +14,7 @@ $ sudo pacman -S evtest
 ```
 $ sudo evtest
 ```
-replace on line 73 and 74 ``/dev/input/event4`` whichever number your mouse/keyboard is
+replace on line 74 and 75 ``/dev/input/event4`` whichever number your mouse/keyboard is
 
 ### compile
 
